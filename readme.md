@@ -13,9 +13,10 @@
   - objektorienterte programmer med klasser med arv og onjekt
 
 - Modellering og reprensetasjon
-  - objektorienterte modeller som beskriver programstruktur (UML)
-  - representasjon av programflyt med kontrollstrukturer (flytdiagram)
+  - [objektorienterte modeller som beskriver programstruktur (UML)](./modellering_og_representasjon/objektorientert.md)
+  -[representasjon av programflyt med kontrollstrukturer (flytdiagram)](./modellering_og_representasjon/objektorientert.md)
   - brukervennlighet i programmer
+  
 
 - Imprementering
   - løsninger med programmering

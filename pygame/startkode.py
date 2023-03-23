@@ -17,7 +17,7 @@ while running:
     # fill the screen with a color to wipe away anything from last frame
     screen.fill("purple")
 
-    # LAG SPILLET DIT HER:
+    # LAG SPILLET DIT HER: Spillkode her
 
     # flip() the display to put your work on screen
     pygame.display.flip()

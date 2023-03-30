@@ -28,7 +28,7 @@ class Spiller:
         vindu.blit(bilde, (self.x, self.y))'''
     
     def spis(self):
-        pop
+        self.radius += 1
 
 
     def oppdater_posisjon(self, musX, musY):

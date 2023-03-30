@@ -34,12 +34,20 @@ while running:
     sjekk_om_spiller_avsluttet()
     vindu.fill((255, 255, 255))
 
+    i = 0
     for matbit in matbiter:
+
         matbit.tegn(vindu)
         print(f"Matbit:({matbit.x}, {matbit.y})")
         avstand = math.sqrt((spiller1.x-matbit.x)**2+(spiller1.y-matbit.y)**2)
-        if avstand <(spiller1.radius - matbit.radius):
+        print(avstand)
+        if avstand < (spiller1.radius - matbit.radius):
+            print("spis")
             spiller1.spis()
+            matbiter.pop(i)
+        i += 1
+            
+
 
     musX, musY = pg.mouse.get_pos()
     spiller1.oppdater_posisjon(musX, musY)
